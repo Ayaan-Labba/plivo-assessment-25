@@ -3,3 +3,6 @@ transformers
 numpy
 tqdm
 seqeval
+sentencepiece
+protobuf
+faker
