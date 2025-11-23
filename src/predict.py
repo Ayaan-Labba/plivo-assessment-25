@@ -6,7 +6,7 @@ from transformers import AutoTokenizer, AutoModelForTokenClassification
 from labels import ID2LABEL, label_is_pii
 import os
 
-# --- CONFIGURATION ---
+### CONFIGURATION
 # Strict threshold for PII to ensure High Precision (minimizes False Positives)
 PII_THRESHOLD = 0.0
 # Normal threshold for non-sensitive entities (optional, can stay 0.0)
@@ -68,6 +68,8 @@ def main():
     # Load Tokenizer & Model
     load_path = args.model_dir if args.model_name is None else args.model_name
     tokenizer = AutoTokenizer.from_pretrained(load_path)
+    
+    ### Testing with models with different tokenizer types
     # tokenizer = AutoTokenizer.from_pretrained(load_path, use_fast=True)
     # if tokenizer.pad_token is None:
     #     tokenizer.pad_token = tokenizer.eos_token
@@ -111,15 +113,15 @@ def main():
                 out = model(input_ids=input_ids, attention_mask=attention_mask)
                 logits = out.logits[0]  # Shape: (seq_len, num_labels)
                 
-                # --- NEW LOGIC START ---
+                ### Adding threshold to improve precision on PII labels
                 
-                # 1. Get probabilities
+                # Get probabilities
                 probs = torch.softmax(logits, dim=-1)
                 
-                # 2. Get top prediction and its confidence
+                # Get top prediction and its confidence
                 confidences, pred_ids = torch.max(probs, dim=-1)
                 
-                # 3. Apply Thresholding
+                # Apply Thresholding
                 final_preds = []
                 for idx, pred_id_tensor in enumerate(pred_ids):
                     pred_id = pred_id_tensor.item()
@@ -130,9 +132,7 @@ def main():
                     # We strip B- or I- prefix to check the category
                     category = label_str.split("-")[1] if "-" in label_str else label_str
                     
-                    # Check if it is PII (using your helper or manual list)
-                    # Note: You need to ensure label_is_pii handles "B-EMAIL" vs "EMAIL" correctly
-                    # or just pass the full label if your helper expects that.
+                    # Check if it is PII (using helper or manual list)
                     is_pii_category = label_is_pii(category) or label_is_pii(label_str)
 
                     if is_pii_category:
@@ -146,8 +146,6 @@ def main():
                             final_preds.append(O_LABEL_ID)
                         else:
                             final_preds.append(pred_id)
-                            
-                # --- NEW LOGIC END ---
 
             spans = bio_to_spans(text, offsets, final_preds)
             

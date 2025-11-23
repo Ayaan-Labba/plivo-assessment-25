@@ -30,6 +30,8 @@ def main():
 
     tokenizer = AutoTokenizer.from_pretrained(args.model_name)
 
+    ### Testing with models with different tokenizer types
+    
     # tokenizer = AutoTokenizer.from_pretrained(args.model_name, use_fast=True)
     # if tokenizer.pad_token is None:
     #     tokenizer.pad_token = tokenizer.eos_token
