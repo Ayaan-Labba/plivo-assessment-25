@@ -8,9 +8,9 @@ import os
 
 # --- CONFIGURATION ---
 # Strict threshold for PII to ensure High Precision (minimizes False Positives)
-PII_THRESHOLD = 0.80
+PII_THRESHOLD = 0.0
 # Normal threshold for non-sensitive entities (optional, can stay 0.0)
-DEFAULT_THRESHOLD = 0.0 
+DEFAULT_THRESHOLD = 0.0
 
 def bio_to_spans(text, offsets, label_ids):
     spans = []
