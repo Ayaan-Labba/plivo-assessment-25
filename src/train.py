@@ -28,9 +28,11 @@ def main():
     args = parse_args()
     os.makedirs(args.out_dir, exist_ok=True)
 
-    tokenizer = AutoTokenizer.from_pretrained(args.model_name, use_fast=True)
-    if tokenizer.pad_token is None:
-        tokenizer.pad_token = tokenizer.eos_token
+    tokenizer = AutoTokenizer.from_pretrained(args.model_name)
+
+    # tokenizer = AutoTokenizer.from_pretrained(args.model_name, use_fast=True)
+    # if tokenizer.pad_token is None:
+    #     tokenizer.pad_token = tokenizer.eos_token
     
     train_ds = PIIDataset(args.train, tokenizer, LABELS, max_length=args.max_length, is_train=True)
 

@@ -67,9 +67,10 @@ def main():
 
     # Load Tokenizer & Model
     load_path = args.model_dir if args.model_name is None else args.model_name
-    tokenizer = AutoTokenizer.from_pretrained(load_path, use_fast=True)
-    if tokenizer.pad_token is None:
-        tokenizer.pad_token = tokenizer.eos_token
+    tokenizer = AutoTokenizer.from_pretrained(load_path)
+    # tokenizer = AutoTokenizer.from_pretrained(load_path, use_fast=True)
+    # if tokenizer.pad_token is None:
+    #     tokenizer.pad_token = tokenizer.eos_token
     
     model = AutoModelForTokenClassification.from_pretrained(args.model_dir)
     model.to(args.device)
