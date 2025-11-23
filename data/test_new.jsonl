@@ -1,0 +1,99 @@
+{"id": "utt_0560", "text": "my main email is thomasfisher at example dot net moving forward.", "entities": [{"start": 17, "end": 48, "label": "EMAIL"}]}
+{"id": "utt_0832", "text": "update support email to jenniferwade at example.net.", "entities": [{"start": 24, "end": 51, "label": "EMAIL"}]}
+{"id": "utt_0746", "text": "charge all payments to three zero five nine three 1 1 zero nine 1 9 three nine 4.", "entities": [{"start": 23, "end": 80, "label": "CREDIT_CARD"}]}
+{"id": "utt_0616", "text": "i\u2019m now living in port robert, please update.", "entities": [{"start": 18, "end": 29, "label": "CITY"}]}
+{"id": "utt_0430", "text": "um, adjust brenda63 at example dot org and february 26 2024.", "entities": [{"start": 11, "end": 38, "label": "EMAIL"}, {"start": 43, "end": 59, "label": "DATE"}]}
+{"id": "utt_0360", "text": "uh, connect billing to five zero 3 eight 7 two 6 one 4 nine three 1 and email to davidphelps@example dot org.", "entities": [{"start": 23, "end": 67, "label": "CREDIT_CARD"}, {"start": 81, "end": 108, "label": "EMAIL"}]}
+{"id": "utt_0067", "text": "uh, i need to use irussell at example.com for password resets.", "entities": [{"start": 18, "end": 41, "label": "EMAIL"}]}
+{"id": "utt_0518", "text": "could you switch the payment method to 5 seven 4 two seven one seven three 9 six 2 9?", "entities": [{"start": 39, "end": 84, "label": "CREDIT_CARD"}]}
+{"id": "utt_0267", "text": "hey, sorry, my city is now cookfurt and my phone 7 seven five 6 six nine 2 four five nine 3 7 five 2 six changed too \u2014 can you fix both?", "entities": [{"start": 27, "end": 35, "label": "CITY"}, {"start": 49, "end": 104, "label": "PHONE"}]}
+{"id": "utt_0715", "text": "card on account: 2 two seven two 6 five four six 1 zero 3 three nine 9 3 zero.", "entities": [{"start": 17, "end": 77, "label": "CREDIT_CARD"}]}
+{"id": "utt_0916", "text": "contact email is now jessicaramirez at example.com.", "entities": [{"start": 21, "end": 50, "label": "EMAIL"}]}
+{"id": "utt_0844", "text": "store two six 4 four 3 eight six one 2 five nine 0 4 seven two three as my active card.", "entities": [{"start": 6, "end": 68, "label": "CREDIT_CARD"}]}
+{"id": "utt_0102", "text": "hey, send my invoices to moorericky@example.net.", "entities": [{"start": 25, "end": 47, "label": "EMAIL"}]}
+{"id": "utt_0839", "text": "send confirmation to sstewart at example dot org.", "entities": [{"start": 21, "end": 48, "label": "EMAIL"}]}
+{"id": "utt_0432", "text": "uh, update 1 six 5 seven nine 3 0 6 5 2 four zero 7 7 eight and four eight 5 five seven 4 9 8 two one eight 2 six.", "entities": [{"start": 11, "end": 59, "label": "PHONE"}, {"start": 64, "end": 113, "label": "CREDIT_CARD"}]}
+{"id": "utt_0734", "text": "store card 4 one 9 two one two four 9 three eight four three 0 eight 9 seven.", "entities": [{"start": 11, "end": 76, "label": "CREDIT_CARD"}]}
+{"id": "utt_0340", "text": "uh, set my email ginalittle@example.com and my city williamburgh.", "entities": [{"start": 17, "end": 39, "label": "EMAIL"}, {"start": 52, "end": 64, "label": "CITY"}]}
+{"id": "utt_0955", "text": "i am now based in new zachary.", "entities": [{"start": 18, "end": 29, "label": "CITY"}]}
+{"id": "utt_0422", "text": "um, change 487 tara square and december 03 1996.", "entities": [{"start": 11, "end": 26, "label": "LOCATION"}, {"start": 31, "end": 47, "label": "DATE"}]}
+{"id": "utt_0754", "text": "i\u2019m william cox\u2014please finalize.", "entities": [{"start": 4, "end": 15, "label": "PERSON_NAME"}]}
+{"id": "utt_0482", "text": "could you also check if the billing reminder date is still set to december 08 1987?", "entities": [{"start": 66, "end": 82, "label": "DATE"}]}
+{"id": "utt_0503", "text": "please redirect all statements to 71894 rebecca place.", "entities": [{"start": 34, "end": 53, "label": "LOCATION"}]}
+{"id": "utt_0798", "text": "all notifications should be sent to oreyes@example.net.", "entities": [{"start": 36, "end": 54, "label": "EMAIL"}]}
+{"id": "utt_0923", "text": "correct phone: 0 0 one five 0 two 4 three 1 4 2 9 0 0 one 8 5 1.", "entities": [{"start": 15, "end": 63, "label": "PHONE"}]}
+{"id": "utt_0082", "text": "hey, the proper location is 726 jessica run.", "entities": [{"start": 28, "end": 43, "label": "LOCATION"}]}
+{"id": "utt_0933", "text": "charge through 4 five two 2 six 5 five seven 6 seven six 9 five two 3 four.", "entities": [{"start": 15, "end": 74, "label": "CREDIT_CARD"}]}
+{"id": "utt_0280", "text": "uh, please update my city ortizfort and my service email cmckinney@example dot com.", "entities": [{"start": 26, "end": 35, "label": "CITY"}, {"start": 57, "end": 82, "label": "EMAIL"}]}
+{"id": "utt_0034", "text": "um, i need to verify the date set on my plan. it should be august 05 2001.", "entities": [{"start": 59, "end": 73, "label": "DATE"}]}
+{"id": "utt_0808", "text": "please send verification to brooke28 at example.net instead.", "entities": [{"start": 28, "end": 51, "label": "EMAIL"}]}
+{"id": "utt_0416", "text": "uh, fix michael84@example dot com and 9399 tiffany haven.", "entities": [{"start": 8, "end": 33, "label": "EMAIL"}, {"start": 38, "end": 56, "label": "LOCATION"}]}
+{"id": "utt_0659", "text": "please update phone to 9 6 one 8 0 eight five 7 3 two seven eight eight 1 four.", "entities": [{"start": 23, "end": 78, "label": "PHONE"}]}
+{"id": "utt_0785", "text": "my preferred notification email is longsonya at example.org now.", "entities": [{"start": 35, "end": 59, "label": "EMAIL"}]}
+{"id": "utt_0937", "text": "i now reside in port melissa.", "entities": [{"start": 16, "end": 28, "label": "CITY"}]}
+{"id": "utt_0970", "text": "send alerts to brianparrish@example.net.", "entities": [{"start": 15, "end": 39, "label": "EMAIL"}]}
+{"id": "utt_0977", "text": "this is tristan bonilla\u2014please confirm receipt.", "entities": [{"start": 8, "end": 23, "label": "PERSON_NAME"}]}
+{"id": "utt_0646", "text": "send orders to 2158 thomas crescent.", "entities": [{"start": 15, "end": 35, "label": "LOCATION"}]}
+{"id": "utt_0449", "text": "hi, adjust gary singh and november 04 1981.", "entities": [{"start": 11, "end": 21, "label": "PERSON_NAME"}, {"start": 26, "end": 42, "label": "DATE"}]}
+{"id": "utt_0164", "text": "hi, use 3 seven five 4 5 two 7 one one 1 one six 1 five 2 for payments.", "entities": [{"start": 8, "end": 57, "label": "CREDIT_CARD"}]}
+{"id": "utt_0911", "text": "phone for verification: 0 zero one 6 0 8 six seven eight eight 4 four 3.", "entities": [{"start": 24, "end": 71, "label": "PHONE"}]}
+{"id": "utt_0880", "text": "set preferred card as 6 zero 1 1 five one five 3 eight one 4 four seven four 4 one.", "entities": [{"start": 22, "end": 82, "label": "CREDIT_CARD"}]}
+{"id": "utt_0215", "text": "hey, could you update my invoice email to patricia22@example dot com and also shift my billing date to june 09 1998?", "entities": [{"start": 42, "end": 68, "label": "EMAIL"}, {"start": 103, "end": 115, "label": "DATE"}]}
+{"id": "utt_0304", "text": "uh, please confirm the charge date july 03 1997 and switch the card to five zero three 8 four 1 0 three eight six 5 nine.", "entities": [{"start": 35, "end": 47, "label": "DATE"}, {"start": 71, "end": 120, "label": "CREDIT_CARD"}]}
+{"id": "utt_0241", "text": "hi, i changed emails to michael33@example.org and also need my location changed to 956 todd unions.", "entities": [{"start": 24, "end": 45, "label": "EMAIL"}, {"start": 83, "end": 98, "label": "LOCATION"}]}
+{"id": "utt_0774", "text": "my updated city is simmonsfurt, so update your records.", "entities": [{"start": 19, "end": 30, "label": "CITY"}]}
+{"id": "utt_0842", "text": "please acknowledge my change from november 22 2007.", "entities": [{"start": 34, "end": 50, "label": "DATE"}]}
+{"id": "utt_0092", "text": "hi, update phone to 6 5 one three eight two 3 3 7 4.", "entities": [{"start": 20, "end": 51, "label": "PHONE"}]}
+{"id": "utt_0308", "text": "uh, my date october 01 2009 and my phone five six 8 3 zero 4 4 2 zero six 7 8 8 need updating.", "entities": [{"start": 12, "end": 27, "label": "DATE"}, {"start": 41, "end": 79, "label": "PHONE"}]}
+{"id": "utt_0261", "text": "hi, replace my old contact benjamin frost with the new one and update billing to 2 one three 1 two 5 zero three nine 2 six 1 four 2 3.", "entities": [{"start": 27, "end": 41, "label": "PERSON_NAME"}, {"start": 81, "end": 133, "label": "CREDIT_CARD"}]}
+{"id": "utt_0402", "text": "um, update 6 nine two eight 0 five three 0 two one and elizabethfurt.", "entities": [{"start": 11, "end": 50, "label": "PHONE"}, {"start": 55, "end": 68, "label": "CITY"}]}
+{"id": "utt_0008", "text": "hi, i want to update my primary contact person to michael miles. how do i do that?", "entities": [{"start": 50, "end": 63, "label": "PERSON_NAME"}]}
+{"id": "utt_0397", "text": "hi, update one 8 zero zero 2 5 8 8 7 4 four 9 five 6 8 and sarah hopkins.", "entities": [{"start": 11, "end": 54, "label": "CREDIT_CARD"}, {"start": 59, "end": 72, "label": "PERSON_NAME"}]}
+{"id": "utt_0453", "text": "hi, switch 438 cain road and christopherreyes at example.net.", "entities": [{"start": 11, "end": 24, "label": "LOCATION"}, {"start": 29, "end": 60, "label": "EMAIL"}]}
+{"id": "utt_0878", "text": "i want all emails sent to john89 at example.org.", "entities": [{"start": 26, "end": 47, "label": "EMAIL"}]}
+{"id": "utt_0242", "text": "um, billing should be on april 09 1976 and through 2 one 3 one 9 8 two two five eight 7 1 three nine 6.", "entities": [{"start": 25, "end": 38, "label": "DATE"}, {"start": 51, "end": 102, "label": "CREDIT_CARD"}]}
+{"id": "utt_0887", "text": "phone update: three two eight 5 4 one 7 7 2 2 five six 0 five 3.", "entities": [{"start": 14, "end": 63, "label": "PHONE"}]}
+{"id": "utt_0547", "text": "my home address is now 49292 christopher walks.", "entities": [{"start": 23, "end": 46, "label": "LOCATION"}]}
+{"id": "utt_0124", "text": "hi, i need the correct warehouse set to psc 0262, box.", "entities": [{"start": 40, "end": 53, "label": "LOCATION"}]}
+{"id": "utt_0701", "text": "send all statements to billy21@example dot com.", "entities": [{"start": 23, "end": 46, "label": "EMAIL"}]}
+{"id": "utt_0831", "text": "please use 4 2 seven one seven 8 3 three 3 two 1 1 6 zero two 5 six four 7 for new charges.", "entities": [{"start": 11, "end": 74, "label": "CREDIT_CARD"}]}
+{"id": "utt_0924", "text": "hi, please log my update from november 08 1996.", "entities": [{"start": 30, "end": 46, "label": "DATE"}]}
+{"id": "utt_0966", "text": "address effective since july 03 1989.", "entities": [{"start": 24, "end": 36, "label": "DATE"}]}
+{"id": "utt_0717", "text": "phone contact: 2 four zero eight 5 7 eight 6 one seven.", "entities": [{"start": 15, "end": 54, "label": "PHONE"}]}
+{"id": "utt_0654", "text": "hi, yeah, this is zoe meadows\u2014number is zero 0 1 8 two three 3 0 four 5 zero 1 eight.", "entities": [{"start": 18, "end": 29, "label": "PERSON_NAME"}, {"start": 40, "end": 84, "label": "PHONE"}]}
+{"id": "utt_0316", "text": "uh, the date september 19 1996 is wrong and the email samantha32@example dot com too.", "entities": [{"start": 13, "end": 30, "label": "DATE"}, {"start": 54, "end": 80, "label": "EMAIL"}]}
+{"id": "utt_0393", "text": "hi, update march 07 1972 and 72980 boyd land.", "entities": [{"start": 11, "end": 24, "label": "DATE"}, {"start": 29, "end": 44, "label": "LOCATION"}]}
+{"id": "utt_0565", "text": "all alerts should go to tiffany25 at example dot com after march 05 2000.", "entities": [{"start": 24, "end": 52, "label": "EMAIL"}, {"start": 59, "end": 72, "label": "DATE"}]}
+{"id": "utt_0259", "text": "hey, my date should be january 23 2015 and my notices should go to danieldavis at example.org.", "entities": [{"start": 23, "end": 38, "label": "DATE"}, {"start": 67, "end": 93, "label": "EMAIL"}]}
+{"id": "utt_0245", "text": "hi, correct my address to unit 7046 box and update card to six 5 1 8 two 5 1 two 8 six 8 two three zero zero 1.", "entities": [{"start": 26, "end": 39, "label": "LOCATION"}, {"start": 59, "end": 110, "label": "CREDIT_CARD"}]}
+{"id": "utt_0687", "text": "replace card with six 0 1 1 2 nine 0 8 4 six six eight 4 five five four.", "entities": [{"start": 18, "end": 71, "label": "CREDIT_CARD"}]}
+{"id": "utt_0807", "text": "ensure that my primary card is four one 5 6 6 2 seven seven six 8 9 six two 7 0 six six 1 1.", "entities": [{"start": 31, "end": 91, "label": "CREDIT_CARD"}]}
+{"id": "utt_0939", "text": "use batescharles@example.net for all notices.", "entities": [{"start": 4, "end": 28, "label": "EMAIL"}]}
+{"id": "utt_0707", "text": "hi, it\u2019s tina wu\u2014the date to record is february 19 2011.", "entities": [{"start": 9, "end": 16, "label": "PERSON_NAME"}, {"start": 39, "end": 55, "label": "DATE"}]}
+{"id": "utt_0055", "text": "hey, i just want to confirm the date of my next charge: july 25 2022.", "entities": [{"start": 56, "end": 68, "label": "DATE"}]}
+{"id": "utt_0818", "text": "my new address is 646 gregory ferry; old one is obsolete.", "entities": [{"start": 18, "end": 35, "label": "LOCATION"}]}
+{"id": "utt_0678", "text": "right number is one 2 zero zero 3 five four 5 two two 8.", "entities": [{"start": 16, "end": 55, "label": "PHONE"}]}
+{"id": "utt_0757", "text": "my preferred email going forward is zallen at example.com; please make sure everything goes there.", "entities": [{"start": 36, "end": 57, "label": "EMAIL"}]}
+{"id": "utt_0861", "text": "charge card five six zero 3 two 4 3 2 nine 8 3 1.", "entities": [{"start": 12, "end": 48, "label": "CREDIT_CARD"}]}
+{"id": "utt_0035", "text": "hi, can you update the name on my account to dean santiago?", "entities": [{"start": 45, "end": 58, "label": "PERSON_NAME"}]}
+{"id": "utt_0620", "text": "hi, this is stacey sanders\u2014my new place is 19818 crawford course.", "entities": [{"start": 12, "end": 26, "label": "PERSON_NAME"}, {"start": 43, "end": 64, "label": "LOCATION"}]}
+{"id": "utt_0926", "text": "city field: north jeremy.", "entities": [{"start": 12, "end": 24, "label": "CITY"}]}
+{"id": "utt_0660", "text": "i want my mailing to go to 2243 phillips causeway.", "entities": [{"start": 27, "end": 49, "label": "LOCATION"}]}
+{"id": "utt_0021", "text": "sorry, i think i typed my phone wrong. it should be 1 5 5 seven five 8 7 one 3 three 1 5 zero nine 8.", "entities": [{"start": 52, "end": 100, "label": "PHONE"}]}
+{"id": "utt_0315", "text": "hey, my phone four two 2 5 3 9 five five 9 0 5 9 nine and my card three 0 four two seven zero one 0 3 nine 3 0 8 9 both changed.", "entities": [{"start": 14, "end": 53, "label": "PHONE"}, {"start": 66, "end": 114, "label": "CREDIT_CARD"}]}
+{"id": "utt_0841", "text": "i, michael bennett dvm, confirm the new location 302 luna hills.", "entities": [{"start": 3, "end": 22, "label": "PERSON_NAME"}, {"start": 49, "end": 63, "label": "LOCATION"}]}
+{"id": "utt_0376", "text": "uh, fix catherineport and qjames@example.org.", "entities": [{"start": 8, "end": 21, "label": "CITY"}, {"start": 26, "end": 44, "label": "EMAIL"}]}
+{"id": "utt_0732", "text": "deliver items to 19433 coffey camp.", "entities": [{"start": 17, "end": 34, "label": "LOCATION"}]}
+{"id": "utt_0974", "text": "charge account using three 5 one nine 9 2 five five zero two seven two 7 five 1 0.", "entities": [{"start": 21, "end": 81, "label": "CREDIT_CARD"}]}
+{"id": "utt_0371", "text": "hey, set 555 robinson terrace and david may.", "entities": [{"start": 9, "end": 29, "label": "LOCATION"}, {"start": 34, "end": 43, "label": "PERSON_NAME"}]}
+{"id": "utt_0148", "text": "hi, switch phone to zero 0 one five eight six 9 9 2 six one 7 9 six four zero five.", "entities": [{"start": 20, "end": 82, "label": "PHONE"}]}
+{"id": "utt_0959", "text": "mark march 18 2022 as effective date.", "entities": [{"start": 5, "end": 18, "label": "DATE"}]}
+{"id": "utt_0803", "text": "reminder emails should go to lauriehorton at example.org from now on.", "entities": [{"start": 29, "end": 56, "label": "EMAIL"}]}
+{"id": "utt_0900", "text": "please mark may 01 1980 as my update date.", "entities": [{"start": 12, "end": 23, "label": "DATE"}]}
+{"id": "utt_0284", "text": "uh, i changed cities to candiceburgh and also need a new billing date february 03 1988.", "entities": [{"start": 24, "end": 36, "label": "CITY"}, {"start": 70, "end": 86, "label": "DATE"}]}
+{"id": "utt_0252", "text": "uh, my billing date july 19 2021 and card three four eight three 0 four six nine 9 0 one 3 nine 8 zero are both outdated.", "entities": [{"start": 20, "end": 32, "label": "DATE"}, {"start": 42, "end": 102, "label": "CREDIT_CARD"}]}
+{"id": "utt_0699", "text": "please keep nine four 9 4 7 6 seven seven 6 2 2 eight two seven on file.", "entities": [{"start": 12, "end": 63, "label": "PHONE"}]}
+{"id": "utt_0486", "text": "hi, the card four nine 5 4 five 3 8 one 7 9 two 1 seven 1 7 six was stolen, so i need to remove it.", "entities": [{"start": 13, "end": 63, "label": "CREDIT_CARD"}]}
+{"id": "utt_0433", "text": "hi, fix february 13 1995 and amber70 at example.net.", "entities": [{"start": 8, "end": 24, "label": "DATE"}, {"start": 29, "end": 51, "label": "EMAIL"}]}
+{"id": "utt_0558", "text": "please note that my move date was november 03 1991.", "entities": [{"start": 34, "end": 50, "label": "DATE"}]}
+{"id": "utt_0324", "text": "uh, switch renewal to june 19 1986 and update city to gonzaleztown.", "entities": [{"start": 22, "end": 34, "label": "DATE"}, {"start": 54, "end": 66, "label": "CITY"}]}
